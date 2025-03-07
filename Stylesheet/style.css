@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: lightgray; 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 65vw;
+  min-height: 80vh;
+  background-color: white;
+  background-image: url("../Assets/bg.png");
+  background-size: cover;
+}
+
+.content-pos {
+  margin: 2rem;
+  position: relative;
+  top: 5rem;
+}
+
+.content h1 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  color: darkgreen;
+  font-size: 1.7rem;
+}
+
+.content p {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.content span {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: lightgray;
+  padding: 2px;
+}
